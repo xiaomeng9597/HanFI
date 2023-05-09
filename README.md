@@ -16,6 +16,7 @@
 * autoawitch.sh 先切换host模式 5秒后查找是否有 网卡USB 10 或 eth0 或 LAN等 自行修改target 若没grep到 切回gadget模式
 * bark推送 自行修改
 * pushdeer推送 自行修改
+* zerotier 内网桥接开防火墙----给群晖用的，第一个 PHY_IFACE=你的网卡名
 # 问题 
 1. mac80211驱动有问题，要编译老网卡需要换，自己添加wcn36xx驱动进去 还望大佬们指导编译方案 也不清楚是否可行
 2. kmod-usb-gadget-eth 编译不进去 使用扩展坞的 若有网卡 或许需要本地编译 或者请指导一下云编译怎么修复
